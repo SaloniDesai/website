@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		
+	<p>Hi fow are you?</p>
+	<button onclick="revFunction("hi how are you")">Click</button>
+	<p id="demo"></p>
+	<script>
+		var str="hi how are you"
+		document.getElementById("demo").innerHTML=str;
+		function spacify(str)
+		{
+			
+			return str.split('').join(' ');
+			
+			
+		}
+		// function myFunction(str){
+		// 	document.writeln("Inside function")
+		// 	if(!str || str.length<2)
+		// 		return str;
+		// 	else
+		// 		return str.split(" ").reverse().join(" ");
+
+		// }
+		// document.getElementById('demo').innerHTML=myFunction(str);
+		</script>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to reverse the order of the elements in the array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits.reverse();
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+ -->
